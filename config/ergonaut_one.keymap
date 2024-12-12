@@ -35,6 +35,15 @@
         };
     };
 
+    macros {
+        center: center {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LC(GLOBE) &kp C>;
+            label = "CENTER";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
