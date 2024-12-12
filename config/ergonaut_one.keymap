@@ -39,7 +39,8 @@
         center: center {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp GLOBE &kp C>;
+            bindings = <&macro_tap>, <&kp LEFT_CONTROL &kp GLOBE &kp C>;
+
             label = "CENTER";
         };
 
