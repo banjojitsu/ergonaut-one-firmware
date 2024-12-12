@@ -42,6 +42,13 @@
             bindings = <&sk LC(GLOBE) &kp C>;
             label = "CENTER";
         };
+
+        full: full {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LC(GLOBE) &kp F>;
+            label = "FULL";
+        };
     };
 
     keymap {
