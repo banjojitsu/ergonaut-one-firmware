@@ -34,10 +34,10 @@
 
         numbers {
             bindings = <
-&none  &none   &kp N7  &kp N8  &kp N9  &none       &none   &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&none  &none   &kp N4  &kp N5  &kp N6  &none       &none   &kp DOLLAR       &kp PERCENT   &kp CARET             &kp BACKSLASH          &none
-&none  &trans  &kp N1  &kp N2  &kp N3  &kp PERIOD  &none   &kp EXCLAMATION  &kp AT_SIGN   &kp POUND             &none                  &none
-                       &kp N0  &trans  &trans      &trans  &trans           &trans
+&none  &none   &kp N7  &kp N8      &kp N9  &none   &none   &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&none  &none   &kp N4  &kp N5      &kp N6  &none   &none   &kp DOLLAR       &kp PERCENT   &kp CARET             &kp BACKSLASH          &none
+&none  &trans  &kp N1  &kp N2      &kp N3  &none   &none   &kp EXCLAMATION  &kp AT_SIGN   &kp POUND             &none                  &none
+                       &kp PERIOD  &kp N0  &trans  &trans  &trans           &trans
             >;
         };
     };
