@@ -39,14 +39,14 @@
         center: center {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&sk LC(GLOBE) &kp C>;
+            bindings = <&kp LEFT_CONTROL &kp GLOBE &kp C>;
             label = "CENTER";
         };
 
         full: full {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&sk LC(GLOBE) &kp F>;
+            bindings = <&kp LEFT_CONTROL &kp GLOBE &kp F>;
             label = "FULL";
         };
     };
@@ -74,7 +74,7 @@
 
         vim {
             bindings = <
-&none  &none  &none  &none    &none   &none   &none   &none     &kp PAGE_UP    &none   &none      &none
+&none  &none  &none  &full    &none   &none   &none   &none     &kp PAGE_UP    &none   &none      &none
 &none  &none  &none  &center  &none   &none   &none   &kp LEFT  &kp DOWN       &kp UP  &kp RIGHT  &none
 &none  &none  &none  &none    &none   &none   &none   &none     &kp PAGE_DOWN  &none   &none      &none
                      &trans   &trans  &trans  &trans  &trans    &trans
