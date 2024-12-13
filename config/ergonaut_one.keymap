@@ -12,14 +12,7 @@
 &mt { quick-tap-ms = <200>; };
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        tri-layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 
     combos {
         compatible = "zmk,combos";
@@ -74,10 +67,10 @@
 
         vim {
             bindings = <
-&none  &none  &kp LC(LS(TAB))  &kp F   &kp LC(TAB)          &none   &none   &none     &kp PAGE_UP    &none   &none      &none
-&none  &none  &kp LEFT         &kp C   &kp RIGHT            &none   &none   &kp LEFT  &kp DOWN       &kp UP  &kp RIGHT  &none
-&none  &none  &none            &none   &none                &none   &none   &none     &kp PAGE_DOWN  &none   &none      &none
-                               &trans  &mt LC(GLOBE) SPACE  &trans  &trans  &trans    &trans
+&none  &none  &kp LC(LS(TAB))  &full    &kp LC(TAB)  &none   &none   &none     &kp PAGE_UP    &none   &none      &none
+&none  &none  &none            &center  &none        &none   &none   &kp LEFT  &kp DOWN       &kp UP  &kp RIGHT  &none
+&none  &none  &none            &none    &none        &none   &none   &none     &kp PAGE_DOWN  &none   &none      &none
+                               &trans   &trans       &trans  &trans  &trans    &trans
             >;
         };
     };
