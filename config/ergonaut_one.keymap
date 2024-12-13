@@ -53,10 +53,10 @@
 
         layer_0 {
             bindings = <
-&kp LG(MINUS)  &kp Q               &kp W           &kp F               &kp P             &kp G      &kp J         &kp L              &kp U                &kp Y           &kp SEMI             &kp LG(EQUAL)
-&key_repeat    &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LEFT_COMMAND S  &mt LEFT_SHIFT T  &kp D      &kp H         &mt RIGHT_SHIFT N  &mt RIGHT_COMMAND E  &mt LEFT_ALT I  &mt RIGHT_CONTROL O  &kp SQT
-&center        &kp Z               &kp X           &kp C               &kp V             &kp B      &kp K         &kp M              &kp COMMA            &kp DOT         &kp FSLH             &full
-                                                   &kp TAB             &lt 3 SPACE       &kp ENTER  &lt 1 ESCAPE  &lt 2 BACKSPACE    &kp DELETE
+&kp LG(MINUS)  &kp Q               &kp W           &kp F               &kp P             &kp G    &kp J        &kp L              &kp U                &kp Y           &kp SEMI             &kp LG(EQUAL)
+&key_repeat    &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LEFT_COMMAND S  &mt LEFT_SHIFT T  &kp D    &kp H        &mt RIGHT_SHIFT N  &mt RIGHT_COMMAND E  &mt LEFT_ALT I  &mt RIGHT_CONTROL O  &kp SQT
+&center        &kp Z               &kp X           &kp C               &kp V             &kp B    &kp K        &kp M              &kp COMMA            &kp DOT         &kp FSLH             &full
+                                                   &kp ESCAPE          &lt 3 SPACE       &kp TAB  &lt 1 ENTER  &lt 2 BACKSPACE    &kp DELETE
             >;
 
             label = "MAIN";
