@@ -67,10 +67,10 @@
 
         nav {
             bindings = <
-&none  &none  &kp LC(LS(TAB))  &full    &kp LC(TAB)  &kp LG(EQUAL)  &none   &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &none  &none
-&none  &none  &none            &center  &none        &kp LG(MINUS)  &none   &kp LEFT     &kp DOWN      &kp RIGHT      &none  &none
-&none  &none  &none            &none    &none        &none          &none   &none        &none         &none          &none  &none
-                               &trans   &trans       &trans         &trans  &trans       &trans
+&none  &none  &kp LC(LS(TAB))  &full    &kp LC(TAB)    &none   &none   &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &none  &none
+&none  &none  &kp LG(MINUS)    &center  &kp LG(EQUAL)  &none   &none   &kp LEFT     &kp DOWN      &kp RIGHT      &none  &none
+&none  &none  &none            &none    &none          &none   &none   &none        &none         &none          &none  &none
+                               &trans   &trans         &trans  &trans  &trans       &trans
             >;
         };
     };
