@@ -53,14 +53,14 @@
         left: left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&sk GLOBE &kp LC(LS(LEFT))>;
+            bindings = <&sk LC(LS(GLOBE)) &kp LEFT_ARROW>;
             label = "LEFT";
         };
 
         right: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&sk GLOBE &kp LC(LS(RIGHT))>;
+            bindings = <&sk LC(LS(GLOBE)) &kp RIGHT>;
             label = "NEW_MACRO";
         };
     };
