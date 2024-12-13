@@ -74,10 +74,10 @@
 
         vim {
             bindings = <
-&none  &none  &kp LC(LS(TAB))  &kp F   &kp LC(TAB)    &none   &none   &none     &kp PAGE_UP    &none   &none      &none
-&none  &none  &kp LEFT         &kp C   &kp RIGHT      &none   &none   &kp LEFT  &kp DOWN       &kp UP  &kp RIGHT  &none
-&none  &none  &none            &none   &none          &none   &none   &none     &kp PAGE_DOWN  &none   &none      &none
-                               &trans  &kp LC(GLOBE)  &trans  &trans  &trans    &trans
+&none  &none  &kp LC(LS(TAB))  &kp F   &kp LC(TAB)          &none   &none   &none     &kp PAGE_UP    &none   &none      &none
+&none  &none  &kp LEFT         &kp C   &kp RIGHT            &none   &none   &kp LEFT  &kp DOWN       &kp UP  &kp RIGHT  &none
+&none  &none  &none            &none   &none                &none   &none   &none     &kp PAGE_DOWN  &none   &none      &none
+                               &trans  &mt LC(GLOBE) SPACE  &trans  &trans  &trans    &trans
             >;
         };
     };
