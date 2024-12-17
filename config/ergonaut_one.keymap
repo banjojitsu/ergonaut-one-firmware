@@ -47,30 +47,12 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base {
+        layer_0 {
             bindings = <
-&mt LEFT_COMMAND LEFT_BRACKET  &kp Q  &kp W  &kp F      &kp P                 &kp G        &kp J         &kp L                      &kp U         &kp Y    &kp SEMI  &mt RIGHT_COMMAND RIGHT_BRACKET
-&mt LCTRL GRAVE                &kp A  &kp R  &kp S      &kp T                 &kp D        &kp H         &kp N                      &kp E         &kp I    &kp O     &mt RCTRL APOSTROPHE
-&mt LEFT_ALT MINUS             &kp Z  &kp X  &kp C      &kp V                 &kp B        &kp K         &kp M                      &kp COMMA     &kp DOT  &kp FSLH  &mt RIGHT_ALT EQUAL
-                                             &lt 2 TAB  &mt LEFT_SHIFT SPACE  &lt 1 ENTER  &lt 1 ESCAPE  &mt RIGHT_SHIFT BACKSPACE  &lt 2 DELETE
-            >;
-        };
-
-        numbers {
-            bindings = <
-&kp LEFT_PARENTHESIS  &none   &kp N7  &kp N8  &kp N9  &none       &none   &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &none          &kp RIGHT_PARENTHESIS
-&none                 &none   &kp N4  &kp N5  &kp N6  &none       &none   &kp DOLLAR       &kp PERCENT   &kp CARET             &none          &none
-&none                 &kp N0  &kp N1  &kp N2  &kp N3  &kp PERIOD  &none   &kp EXCLAMATION  &kp AT_SIGN   &kp POUND             &kp BACKSLASH  &none
-                                      &trans  &trans  &trans      &trans  &trans           &trans
-            >;
-        };
-
-        nav {
-            bindings = <
-&none  &none  &kp LC(LS(TAB))  &full    &kp LC(TAB)    &none   &none   &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &none  &none
-&none  &none  &kp LG(MINUS)    &center  &kp LG(EQUAL)  &none   &none   &kp LEFT     &kp DOWN      &kp RIGHT      &none  &none
-&none  &none  &none            &none    &none          &none   &none   &none        &none         &none          &none  &none
-                               &trans   &trans         &trans  &trans  &trans       &trans
+&none  &kp Q  &kp W  &kp F    &kp P      &kp G      &kp J       &kp L          &kp U       &kp Y    &kp SEMI  &none
+&none  &kp A  &kp R  &kp S    &kp T      &kp D      &kp H       &kp N          &kp E       &kp I    &kp O     &none
+&none  &kp Z  &kp X  &kp C    &kp V      &kp B      &kp K       &kp M          &kp COMMA   &kp DOT  &kp FSLH  &none
+                     &kp TAB  &kp SPACE  &kp ENTER  &kp ESCAPE  &kp BACKSPACE  &kp DELETE
             >;
         };
     };
